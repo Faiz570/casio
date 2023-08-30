@@ -1,0 +1,35 @@
+.signup-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+  .signup-form h1 {
+    font-size: 28px;
+  }
+  
+  .signup-form form {
+    padding: 20px;
+  }
+  
+  .signup-form .form-label {
+    font-weight: bold;
+  }
+  
+  .signup-form .btn {
+    width: 100%;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

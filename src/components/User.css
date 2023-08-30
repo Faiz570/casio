@@ -1,0 +1,50 @@
+Add this CSS to your User.css file
+.card {
+
+  justify-content: center;
+  align-items: center;
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  
+  .qq{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  }
+  .card-img-top {
+    transition: transform 0.3s;
+ 
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.1);
+  }
+  
+  .btn-dark:hover {
+    transform: scale(1.05);
+  }
+  .maincard{
+    width: 212px;
+    height: 270px;
+  }
+  .row1{
+    display: flex;
+  }
+  .row2{
+    display: flex;
+  }
+  .row3{
+    display: flex;
+  }
+  .row4{
+    display: flex;
+  }
+  .row5{
+    display: flex;
+  }
+  

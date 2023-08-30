@@ -1,0 +1,18 @@
+/* Swiper.css */
+.swiper-container {
+    position: relative;
+    max-width: 100%; /* Make sure the container fits within its parent */
+    overflow: hidden;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%; /* Vertically center the buttons */
+    transform: translateY(-50%); /* Adjust vertical positioning */
+  }
+  
+  .carousel-inner img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

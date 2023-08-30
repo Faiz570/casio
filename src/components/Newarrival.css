@@ -1,0 +1,71 @@
+.a1 {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+
+}
+
+.a1a {
+  
+    width: 45%;
+}
+
+.a1b {
+
+    width: 45%;
+}
+
+.aa1 {
+    width: 90%;
+    height: 70dvh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .a1 {
+        width: 100%;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(224, 224, 224);
+    
+    }
+    
+    .a1a {
+       
+        padding: 15px;
+        width: 100%;
+    }
+    
+    .a1b {
+
+    padding: 15px;
+        width: 100%;
+    }
+    
+    .aa1 {
+        width:auto;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    }
+
+    .aimg{
+        width: 100%;
+    
+        height: auto;
+
+    }

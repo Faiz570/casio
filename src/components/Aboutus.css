@@ -1,0 +1,12 @@
+.csimg{
+    width: 100px;
+    height: 100px;
+
+}
+.card-img{
+    min-height: 30vh;
+}
+.Acard{
+    border-radius: 50px;
+    border-color: 1px solid black;
+}
